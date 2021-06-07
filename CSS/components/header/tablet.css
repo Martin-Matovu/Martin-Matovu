@@ -1,0 +1,61 @@
+.head {
+    height: 7.5rem;
+    width: 100%;
+    background: #ffffff;
+    box-shadow: 0 0 0.3125rem #eee;
+    position: sticky;
+    top: 0;
+    z-index: 3;
+}
+.head-wrapper {
+    height: 100%;
+    padding: 0 1.25rem;
+    display: flex;
+    justify-content: space-between;
+}
+.logo-wrapper {
+    display: flex;
+    align-items: center;
+}
+.logo {
+    height: 3.5rem;
+}
+.desktop-nav-wrapper {
+    display: flex;
+    align-items: center;
+}
+.desktop-nav-list {
+    display: flex;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+.desktop-nav-list-item-link {
+    font-size: 1.5rem;
+    color: #200002;
+}
+.contact-button {
+    font-size: 1.5rem;
+    background: #4d4d4d;
+    color: #fff;
+}
+.mobile-nav-wrapper {
+    display: none;
+}
+
+
+/* STATE */
+.desktop-nav-list-item-link:hover {
+    box-shadow: 0 0 0.3125rem #eee;
+    color: #8000e8;
+    transition: 0.2s ease-in-out;
+}
+.contact-button:hover {
+    background: #8000e8;
+    box-shadow: 0 0 0.3125rem #ccc;
+    transition: 0.1s ease-in-out;
+}
+.desktop-nav-list-item a:active {
+    box-shadow: 0 0 0.625rem #ccc;
+    transition: 0.3s ease-in-out;
+}

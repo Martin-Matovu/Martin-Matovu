@@ -1,0 +1,199 @@
+/* GLOBALS */
+@import url("../../components/globals/tablet.css");
+
+/* HEADER */
+@import url("../../components/header/tablet.css");
+
+/* FOOTER */
+@import url("../../components/footer/tablet.css");
+
+/* MAIN */
+/* BASE */
+h1 {
+    font-size: 3.5rem;
+    text-align: center;
+    padding: 0 0 0.3125rem 0;
+    margin: 0;
+}
+.my-description p {
+    font-size: 1.5rem;
+    text-align: center;
+    font-weight: 600;
+    margin: 0;
+}
+.welcome h2 {
+    font-size: 2.625rem;
+    text-align: center;
+    color: #4d4d4d;
+    padding: 0 0 1.25rem 0;
+    margin: 0;
+}
+.welcome-text p, .who-am-i p, .projects-text p, .what-i-do-text p {
+    font-size: 1.5rem;
+    text-align: center;
+}
+.welcome-text p strong, .who-am-i p strong, .what-i-do-text p strong {
+    color: #8000e8;
+}
+.who-am-i h2, .projects h2, .what-i-do h2 {
+    font-size: 2.2rem;
+    text-align: center;
+    color: #4d4d4d;
+    margin: 0;
+}
+.who-am-i-text p span {
+    color: #00f;
+}
+.project-article p {
+    font-size: 1.5rem;
+    padding: 0 1.25rem;
+    margin: 0;
+}
+
+/* LAYOUT */
+.hero-area {
+    height: auto;
+    padding: 1.25rem 2.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.martin-matovu {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.fold {
+    height: 2.5rem;
+    background: #ccc;
+}
+.after-fold {
+    margin: 2.5rem auto;
+    display: grid;
+    grid-template-columns: 95%;
+    row-gap: 2.5rem;
+    justify-content: center;
+}
+ .welcome, .who-am-i, .projects, .what-i-do {
+    padding: 2.5rem;
+    background: #fff;
+    border-radius: 1.25rem;
+    box-shadow: 0 0 0.3125rem #ccc;
+}
+.expanded-projects {
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+.expanded-project {
+    display: none;
+    padding: 2.5rem;
+    position: absolute;
+    top: -30px;
+    width: 90%;
+    height: auto;
+    background: #fff;
+    box-shadow: 0 0 0.3125rem #ccc;
+    border-radius: 1.25rem;
+
+}
+.close-project {
+    height: 2.875rem;
+    width: 2.875rem;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    box-shadow: 0 0 0.3125rem #ccc;
+    border-radius: 1.25rem;
+    background: #fff;
+    position: absolute;
+    top: 0.45rem;
+    right: 0.45rem;
+    cursor: pointer;
+}
+.close-image {
+    height: 50%;
+}
+.development-dates {
+    display: flex;
+    justify-content: space-evenly;
+}
+.visit-button-wrapper {
+    text-align: center;
+}
+.projects-section-wrapper {
+    padding: 0.625rem 0;
+    display: grid;
+    grid-template-columns: 17.5rem 17.5rem 17.5rem;
+    column-gap: 2.5rem;
+    justify-content: center;
+}
+
+/* MODULE */
+.martins-image {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 0 1.25rem 0;
+}
+.my-image {
+    width: 25rem;
+    height: 25rem;
+    z-index: 0;
+    border-radius: 25%;
+    box-shadow: 0 0 0.3125rem #8000e8;
+}
+.my-description {
+    width: 30rem;
+    color: #8000e8;
+}
+.project-article {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1.25rem;
+    background: #eee;
+    border-radius: 1.25rem;
+    box-shadow: 0 0 0.3125rem #8000e8;
+    cursor: pointer;
+}
+.project-description {
+    font-size: 1.5rem;
+}
+.more-projects {
+    text-align: center;
+    padding: 1.875rem 0 0 0;
+}
+.see-more-projects, .visit-project {
+    font-family: Montserrat;
+    font-size: 1.5rem;
+    height: 3rem;
+    width: 50%;
+    padding: 0;
+    box-shadow: 0 0 0.3125rem #cccccc;
+    border-radius: 1.25rem;
+    border: none;
+    background: #4d4d4d;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+/* STATE */
+.project-article:hover {
+    box-shadow: 0 0 0.625rem #8000e8;
+    transition: 0.2s ease-in-out;
+}
+.close-project:focus {
+    outline: none;
+}
+.see-more-projects:hover, .visit-blog:hover, .visit-project:hover {
+    background: #8000e8;
+    transition: 0.2s ease-out;
+}
+
+/* MEDIA QURIES */

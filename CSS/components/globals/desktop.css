@@ -1,0 +1,38 @@
+body {
+    font-family: Montserrat;
+    height: 100vh;
+    width: 100vw;
+    background: #eee;
+    margin: 0;
+}
+body::-webkit-scrollbar {
+    width: 0.625rem;
+    background: transparent;
+}
+body::-webkit-scrollbar-track {
+    border-radius: 1.25rem;
+    background: #eee;
+}
+body::-webkit-scrollbar-thumb {
+    border-radius: 1.25rem;
+    background: #4d4d4d;
+}
+body::-webkit-scrollbar-thumb:hover {
+    background: #8000e8;
+}
+.desktop-nav ul {
+    list-style: none;
+}
+.desktop-nav-list-item a {
+    font-weight: 500;
+    padding: 1.25rem 1.5rem;
+    border-radius: 1.25rem;
+    text-decoration: none;
+}
+.foot-info p {
+    color: #fff;
+    margin: 0;
+}
+.website-resources p a {
+    color: #fff;
+}

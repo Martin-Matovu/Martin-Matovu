@@ -1,0 +1,37 @@
+.foot {
+    font-size: 1.5rem;
+    background: #8000e8;
+}
+.foot-wrapper {
+    height:100%;
+    padding: 0 1.25rem;
+}
+.foot-links {
+    display: flex;
+    flex-direction: column;
+    padding: 1.25rem 0;
+    border-bottom: 0.03125rem solid #eee;
+}
+.external-links, .website-links {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 0 0 1.25rem 0;
+}
+.foot-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 1.25rem 0 0.625rem 0;
+}
+
+
+/* STATE */
+.external-links a:hover, .website-links a:hover {
+    color: #00ffff;
+    text-decoration: underline;
+    transition: 0.5s ease-in-out;
+}
+.external-links a:visited, .website-links a:visited {
+    color: #00ff00;
+}

@@ -1,0 +1,39 @@
+body {
+    font-family: Montserrat;
+    background: #eee;
+    margin: 0;
+}
+.desktop-nav ul {
+    list-style: none;
+}
+.desktop-nav-list-item a {
+    font-weight: 500;
+    padding: 2rem 2.5rem;
+    border-radius: 1.25rem;
+    text-decoration: none;
+}
+.external-links p, .website-links p {
+    font-weight: 600;
+    color: #fff;
+    margin: 0;
+}
+.external-links a, .website-links a {
+    color: #fff;
+    padding: 0 1.25rem;
+    text-decoration: none;
+}
+.foot-info p {
+    color: #fff;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+.foot-info p span {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 0.3125rem 0 0;
+}
+.foot-info p span img {
+    height: 1rem;
+}

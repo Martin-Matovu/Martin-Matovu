@@ -1,0 +1,260 @@
+/* GLOBALS */
+@import url("../../components/globals/mobile.css");
+
+/* HEADER */
+@import url("../../components/header/mobile.css");
+
+/* FOOTER */
+@import url("../../components/footer/mobile.css");
+
+/* MAIN */
+/* BASE */
+h1 {
+    text-align: center;
+    font-size: 3rem;
+    padding: 0 0 0.3125rem 0;
+    margin: 0;
+}
+.my-description p {
+    text-align: center;
+    font-size: 1.25rem;
+    font-weight: 600;
+    margin: 0;
+}
+.welcome h2 {
+    font-size: 3.5rem;
+    text-align: center;
+    color: #4d4d4d;
+    padding: 0 0 1.25rem 0;
+    margin: 0;
+}
+.welcome-text p, .who-am-i-text p, .projects-text p, .what-i-do-text p {
+    font-size: 1.5rem;
+    text-align: center;
+}
+.welcome-text p strong, .who-am-i-text p strong, .what-i-do-text p strong {
+    color: #8000e8;
+}
+.who-am-i h2, .projects h2, .what-i-do h2 {
+    font-size: 3rem;
+    text-align: center;
+    color: #4d4d4d;
+    padding: 0 0 0.625rem 0;
+    margin: 0;
+}
+.project-article p {
+    font-size: 1.5rem;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 1.25rem;
+    margin: 0;
+}
+.development-dates p {
+    font-size: 0.625rem;
+}
+
+/* LAYOUT */
+.hero-area {
+    height: 52.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.martin-matovu {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.contact-me-button {
+    padding: 0 5rem;
+}
+.fold {
+    height: 2.5rem;
+    background: #ccc;
+}
+.after-fold {
+    display: grid;
+    grid-template-columns: 90%;
+    row-gap: 2.5rem;
+    justify-content: center;
+    margin: 2.5rem auto;
+}
+.welcome, .who-am-i, .projects, .what-i-do {
+    padding: 2.5rem;
+    background: #fff;
+    border-radius: 1.25rem;
+    box-shadow: 0 0 0.3125rem #ccc;
+}
+.expanded-projects {
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+.expanded-project {
+    display: none;
+    padding: 2.5rem;
+    position: absolute;
+    top: 0;
+    width: 90%;
+    height: auto;
+    background: #fff;
+    box-shadow: 0 0 0.3125rem #ccc;
+    border-radius: 1.25rem;
+
+}
+.close-project {
+    height: 3.5rem;
+    width: 3.5rem;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    box-shadow: 0 0 0.3125rem #ccc;
+    border-radius: 1.25rem;
+    background: #fff;
+    position: absolute;
+    top: 0.45rem;
+    right: 0.45rem;
+}
+.close-image {
+    height: 50%;
+}
+.development-dates {
+    display: flex;
+    justify-content: space-evenly;
+}
+.project-description {
+    font-size: 1.5rem;
+}
+.visit-button-wrapper {
+    text-align: center;
+}
+.projects-section-wrapper {
+    padding: 0.625rem 0;
+    display: grid;
+    grid-template-rows: auto auto auto;
+    row-gap: 2.5rem;
+}
+
+/* MODULE */
+.martins-image {
+    padding: 2.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.my-image {
+    width: 25rem;
+    height: 25rem;
+    z-index: 0;
+    border-radius: 25%;
+    box-shadow: 0 0 0.3125rem #8000e8;
+    margin: 2.5rem 0 0 0;
+}
+.my-description {
+    width: auto;
+    color: #8000e8;
+    margin: 2.5rem 0 0 0;
+}
+.contact-me {
+    font-family: Montserrat;
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: #fff;
+    height: 4.5rem;
+    width: 100%;
+    border: none;
+    border-radius: 1.25rem;
+    background: #8000e8;
+    cursor: pointer;
+}
+.project-article {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1.25rem;
+    background: #eee;
+    border-radius: 1.25rem;
+    box-shadow: 0 0 0.3125rem #8000e8;
+    cursor: pointer;
+}
+.more-projects, .go-to-blog {
+    text-align: center;
+    padding: 1.875rem 0 0 0;
+}
+.see-more-projects, .visit-project {
+    font-family: Montserrat;
+    font-size: 1.5rem;
+    height: 3rem;
+    width: 50%;
+    padding: 0;
+    box-shadow: 0 0 0.3125rem #cccccc;
+    border-radius: 1.25rem;
+    border: none;
+    background: #4d4d4d;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+/* STATE */
+
+/* MEDIA QURIES */
+@media screen and (max-width: 480px) {
+    .before-fold {
+        height: auto;
+    }
+    .martins-image {
+        padding: 1.5rem;
+    }
+    .my-image {
+        width: 15rem;
+        height: 15rem;
+    }
+    .my-description h1 {
+        font-size: 1.875rem;
+    }
+    .my-description p {
+        font-size: 1rem;
+    }
+    .contact-me-button {
+        padding: 0 2.5rem 1.25rem 2.5rem;
+    }
+    .contact-me {
+        font-size: 1.25rem;
+    }
+    .after-fold {
+        row-gap: 1.25rem;
+        margin: 1.25rem 0;
+    }
+    .welcome h2 {
+        font-size: 2.5rem;
+    }
+    .who-am-i h2, .projects h2, .what-i-do h2 {
+        font-size: 2.25rem;
+    }
+    .welcome-text p, .who-am-i-text p, .projects-text p, .what-i-do-text p {
+        font-size: 1rem;
+    }
+    .projects-section-wrapper {
+        row-gap: 1.25rem;
+    }
+    .project-article p {
+        font-size: 1rem;
+    }
+    .see-more-projects, .visit-project {
+        font-size: 1rem;
+    }
+    .close-project {
+        height: 2.5rem;
+        width: 2.5rem;
+    }
+    .development-dates {
+        font-size: 0.875rem;
+    }
+    .project-description {
+        font-size: 1rem;
+    }
+}

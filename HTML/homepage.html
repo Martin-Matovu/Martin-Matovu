@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!--Metadata-->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Icons-->
+    <link rel="shortcut icon" href="../IMAGES/Maven-icon.png" type="image/x-icon">
+    <link rel="icon" href="../IMAGES/Maven-icon.svg">
+    <!--Stylesheets-->
+    <link rel="stylesheet" href="../CSS/pages/homepage/desktop.css" media="screen and (min-width: 75.0625rem)">
+    <link rel="stylesheet" href="../CSS/pages/homepage/mobile.css" media="screen and (max-width: 45rem)">
+    <link rel="stylesheet" href="../CSS/pages/homepage/tablet.css" media="screen and (min-width: 45.0625rem) and (max-width: 75rem)">
+    <!--Title-->
+    <title>Martin Matovu</title>
+</head>
+<body>
+    <header class="head">
+        <div class="head-wrapper">
+            <div class="logo-wrapper">
+                <a href="homepage.html">
+                    <img src="../IMAGES/Martin-Matovu-logo.svg" alt="" class="logo"><!--img.logo-->
+                </a>
+            </div><!--div.logo-wrapper-->
+            <div class="desktop-nav-wrapper">
+                <nav class="desktop-nav">
+                    <button class="desktop-nav-item" id="about-button">About</button>
+                    <button class="desktop-nav-item" id="portfolio-button">Projects</button>
+                    <button class="desktop-nav-item" id="blog-button">Blog</button>
+                    <button class="desktop-nav-item contact-button" id="contact-button">Contact Me</button>
+                </nav><!--nav.desktop-nav-->
+            </div><!--div.desktop-nav-wrapper-->
+            <div class="mobile-nav-wrapper" id="nav-element">
+                <div class="mobile-nav-button-wrapper">
+                    <img src="../IMAGES/bars.svg" alt="" class="mobile-nav-button" id="menu">
+                </div><!--div.mobile-nav-button-->
+                <nav class="mobile-nav">
+                    <ul class="mobile-nav-list">
+                        <li class="mobile-nav-list-item">
+                            <a href="about.html"
+                            class="mobile-nav-list-item-link">About</a>
+                        </li>
+                        <li class="mobile-nav-list-item">
+                            <a href="portfolio.html"
+                            class="mobile-nav-list-item-link">Projects</a>
+                        </li><!--li.mobile-nav-list-item-->
+                        <li class="mobile-nav-list-item">
+                            <a href="blog.html"
+                            class="mobile-nav-list-item-link">Blog</a>
+                        </li><!--li.mobile-nav-list-item-->
+                        <li class="mobile-nav-list-item">
+                            <a href="contact.html" class="contact-button">Contact Me</a>
+                        </li><!--li.mobile-nav-list-item-->
+                    </ul><!--ul.mobile-nav-list-->
+                </nav><!--nav.mobile-nav-->
+            </div><!--div.mobile-nav-wrapper-->
+            <div class="social-links-wrapper">
+                <div class="social-links">
+                    <a href="#github">
+                        <div class="social-link"></div>
+                    </a>
+                    <a href="#linkedin">
+                        <div class="social-link"></div>
+                    </a>
+                    <a href="#twitter">
+                        <div class="social-link"></div>
+                    </a>
+                    <a href="#facebook">
+                        <div class="social-link"></div>
+                    </a>
+                </div>
+            </div>
+        </div><!--div.head-wrapper-->
+    </header><!--header.head-->
+    <main class="main-content">
+        <div class="about-modal-area" id="about-modal-area">
+            <button class="close-page" id="close-about-page">
+                <img src="../IMAGES/window-close.svg" alt="" class="close-image">
+            </button>
+            <section class="modal-page" id="about-page">
+                <h2>Web Developer</h2>
+                <div class="about-wrapper">
+                    <p>
+                        I am a <strong>web developer</strong>
+                        with a passion for developing cool web
+                        applications using some amazing tools
+                        and technologies.
+                    </p>
+                    <h3>Technicalities</h3>
+                    <p>
+                        I use technologies of the <strong>JAMstack</strong> to develop fast and cool web
+                        applications. In detail, I use <strong>GitHub</strong> or <strong>Gatsby Cloud</strong> 
+                        to host the codebase, <strong>Gatsby</strong> to make good use of <strong>React</strong>
+                        components, and <strong>Netlify</strong> to serve the website.
+                        I use <strong>Firebase</strong>'s database API, <strong>Auth0</strong>'s
+                        authentication API, and <strong>Stripe</strong> for payment management.
+                    </p>
+                    <h3>Moving on...</h3>
+                    <p>
+                        Currently, I live in Uganda, but hope to move to Canada some time in
+                        the future (you know, for better opportunities).
+                    </p>
+                    <p>
+                        I am also a <strong>tech enthusiast</strong> and love talking and
+                        listening about technology, and you can usually find me talking and
+                        discussing about it on my social media profiles.
+                    </p>
+                    <p>
+                        I also <strong>love food</strong>, and also do some light gaming on
+                        my "off-days" (maybe not exactly off-days but any time I take a break
+                        on Wednesdays and Sundays).
+                    </p>
+                </div>
+            </section>
+        </div>
+        <div class="portfolio-modal-area" id="portfolio-modal-area">
+            <button class="close-page" id="close-portfolio-page">
+                <img src="../IMAGES/window-close.svg" alt="" class="close-image">
+            </button>
+            <section class="modal-page" id="portfolio-page">
+                <h2>My Projects</h2>
+                <p>
+                    These are some of my favorite and most popular projects, although there's more on my
+                    <a href="https://github.com/martin_matovu">GitHub projects</a>.
+                </p>
+                <div class="portfolio-wrapper">
+                    <div class="project-card">
+                        <h3>Project Name</h3>
+                        <legend>Technologies used: </legend>
+                    </div>
+                    <div class="project-card">
+                        <h3>Project Name</h3>
+                        <legend>Technologies used: </legend>
+                    </div>
+                    <div class="project-card">
+                        <h3>Project Name</h3>
+                        <legend>Technologies used: </legend>
+                    </div>
+                    <div class="project-card">
+                        <h3>Project Name</h3>
+                        <legend>Technologies used: </legend>
+                    </div>
+                    <div class="project-card">
+                        <h3>Project Name</h3>
+                        <legend>Technologies used: </legend>
+                    </div>
+                    <div class="project-card">
+                        <h3>Project Name</h3>
+                        <legend>Technologies used: </legend>
+                    </div>
+                </div>
+            </section>
+        </div>
+        <div class="blog-modal-area" id="blog-modal-area">
+            <button class="close-page" id="close-blog-page">
+                <img src="../IMAGES/window-close.svg" alt="" class="close-image">
+            </button>
+            <section class="modal-page" id="blog-page">
+                <h2>My Blog Profiles</h2>
+                <div class="blog-wrapper">
+                    <p>
+                        I have a couple blog profiles, on Medium, and on Dev.to. On the Medium profile,
+                        I usually write food and gaming-related content, whereas on Dev.to, I write about
+                        tech, and web develpoment, and stuff that I've made. So whichever one you choose,
+                        there is at least some good content on both platforms for you to read, and you can
+                        decide which type appeals more to you:
+                    </p>
+                    <ul>
+                        <li>
+                            <a href="https://medium.com/creator/@martinmatovu">Medium</a>
+                        </li>
+                        <li>
+                            <a href="https://dev.to/@martinmatovu2">Dev.to</a>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+        </div>
+        <div class="contact-modal-area" id="contact-modal-area">
+            <button class="close-page" id="close-contact-page">
+                <img src="../IMAGES/window-close.svg" alt="" class="close-image">
+            </button>
+            <section class="modal-page" id="contact-page">
+                <h2>Contact Me</h2>
+            </section>
+        </div>
+        </div>
+        <div class="hero-area">
+            <section class="martin-matovu">
+                <div class="my-image-and-description">
+                    <img src="../IMAGES/test-portrait-image.png"
+                    alt="Martin Matovu's portrait image"
+                    class="my-image">
+                    <div class="my-description">
+                        <p>
+                            Web developer,
+                            tech enthusiast, food lover, and casual gamer.
+                        </p>
+                    </div><!--div.my-description-->
+                </div><!--div.my-image-and-description-->
+            </section><!--section.martin-matovu-->
+        </div><!--div.before-fold-->
+    <footer class="foot">
+        <div class="foot-wrapper">
+            <div class="foot-info">
+                <div class="foot-text">
+                    <p>
+                        Copyright 2021-Present, Martin Matovu.
+                        All Rights Reserved.
+                    </p>
+                </div><!--div.foot-text-->
+                <div class="website-resources">
+                    <p>Powered by:
+                        <a href="#">Netlify</a>,
+                        <a href="">Gatsby</a>, and
+                        <a href="">WordPress</a>
+                    </p>
+                </div><!-- div.website-resources -->
+            </div><!--div.foot-info-->
+        </div><!--div.foot-wrapper-->
+    </footer><!--footer.foot-->
+    <script src="../JS/plugins/popup-nav.js"></script>
+    <script src="../JS/scripts/popup.js"></script>
+</body>
+</html>

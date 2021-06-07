@@ -1,0 +1,82 @@
+.foot {
+    font-size: 1.5rem;
+    background: #8000e8;
+}
+.foot-wrapper {
+    height:100%;
+    padding: 0 1.25rem;
+}
+.foot-links {
+    display: flex;
+    flex-direction: column;
+    padding: 1.25rem 0;
+    border-bottom: 0.03125rem solid #eee;
+}
+.external-links, .website-links {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 0 0 1.25rem 0;
+}
+.social-links {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 1.25rem;
+    background: #fff;
+    border-radius: 1.25rem;
+}
+.github {
+    color: #ffc400;
+}
+.linkedin {
+    color: #00aeff;
+}
+.facebook {
+    color: #00f;
+}
+.twitter {
+    color: #0ff;
+}
+.youtube {
+    color: #f00;
+}
+.instagram {
+    color: #f0f;
+}
+.medium {
+    color: #000;
+}
+.foot-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 1.25rem;
+}
+.foot-text {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.website-resources {
+    padding: 1.25rem 0 0 0;
+}
+
+
+/* STATE */
+.external-links a:focus, .website-links a:focus {
+    color: #00ff;
+    transition: 0.3s ease-in-out;
+}
+.external-links a:active, .website-links a:active {
+    color: #00ffff;
+    text-decoration: underline;
+    transition: 0.5s ease-in-out;
+}
+
+/* MEDIA QURIES */
+@media screen and (max-width: 480px) {
+    .foot {
+        font-size: 1rem;
+    }
+}

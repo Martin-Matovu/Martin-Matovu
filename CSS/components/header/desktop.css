@@ -1,0 +1,82 @@
+.head {
+    height: 6rem;
+    width: 100%;
+    background: #fff;
+    box-shadow: 0 0 0.3125rem #eee;
+}
+.head-wrapper {
+    height: 100%;
+    padding: 0 1.25rem;
+    display: flex;
+    justify-content: space-between;
+}
+.logo-wrapper {
+    display: flex;
+    align-items: center;
+}
+.logo {
+    height: 3rem;
+}
+.desktop-nav-wrapper {
+    display: flex;
+    align-items: center;
+}
+.desktop-nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 0.625rem;
+}
+.desktop-nav-item {
+    font-family: Montserrat;
+    font-size: 1rem;
+    font-weight: 500;
+    color: #200002;
+    padding: 1.25rem 1.5rem;
+    border: none;
+    border-radius: 1.25rem;
+    background: #fff;
+    cursor: pointer;
+}
+.contact-button {
+    background: #4d4d4d;
+    color: #fff;
+}
+.mobile-nav-wrapper {
+    display: none;
+}
+.social-links-wrapper {
+    padding: 0.625rem;
+}
+.social-links {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 1.25rem;
+}
+.social-link {
+    height: 2.5rem;
+    width: 2.5rem;
+    padding: 0.625rem;
+    box-shadow: 0 0 0.3125rem #ccc;
+    border-radius: 1.25rem;
+}
+
+
+/* STATE */
+.desktop-nav-item:hover {
+    box-shadow: 0 0 0.3125rem #eee;
+    color: #8000e8;
+    transition: 0.2s ease-in-out;
+}
+.contact-button:hover {
+    color: #fff;
+    background: #8000e8;
+    box-shadow: 0 0 0.3125rem #ccc;
+    transition: 0.1s ease-in-out;
+}
+.desktop-nav-item:active {
+    box-shadow: 0 0 0.625rem #ccc;
+    transition: 0.3s ease-in-out;
+}

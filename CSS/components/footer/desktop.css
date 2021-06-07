@@ -1,0 +1,17 @@
+.foot {
+    height: 4.5rem;
+    background: #8000e8;
+}
+.foot-wrapper {
+    height:100%;
+    padding: 0 1.25rem;
+}
+.foot-info {
+    height: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+
+/* STATE */
